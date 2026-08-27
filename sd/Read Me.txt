@@ -1,0 +1,4 @@
+Read Me -, 2024-04 ezLCD-5x "Read Me"
+
+Please read the /Documentaion/ezLCD-5035 Manual March 20204.pdf to get started using your ezLCD-5035.
+

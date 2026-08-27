@@ -1,0 +1,21 @@
+NOTEPAD++ ezLCD Lua Plugin Installation 
+by Justin Dailey
+(c) 2020 Justin Dailey (c) 2020 Earth Computer Technologies, Inc.
+--
+IMPORTANT: Make sure the ezLCD is plugged in via USB!
+This assumes you searched, found and installed Notepadd++ on you PC running Microsoft Windows 10.
+--
+1) In Notepad++ use the menu option Plugin > Open Plugins Folder
+2) Create a folder named ezLCDLua
+3) Copy the ezLCDLua.dll file provided on your ezLCD from the Notepad++ folder into the ezLCDLua folder
+4) Close and reopen Notepad++
+5) Use the menu option Plugin > ezLCD Lua > Edit Config File
+6) Using Windows 10 "Device Manager" click on "Ports (COM & LPT)". You should see a line that says USB 
+Serial Device (COMxx). In the config file replace COM1 with whatever number you see in the config file 
+to use and save the file.
+7) Use the menu option Plugin > ezLCD Lua > Show Console
+--
+Start typing commands example    ez.Cls(ez.RGB(255, 0, 0)))    in the console, and enjoy. For Lua commands 
+NOTE: If you had the Luascript plugin installed previously you may want to uninstall it through 
+Plugins>Plugins Admin Menu in Notepad++
+

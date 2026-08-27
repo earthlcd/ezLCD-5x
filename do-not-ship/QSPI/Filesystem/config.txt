@@ -1,0 +1,45 @@
+# Microaire config.txt July 21 2022
+#
+# ezLCD Config.txt
+#
+[Startup]
+Backlight = On
+Brightness = 80
+Sscolor = 0
+StartScreen = Color
+SerialBaudRate = 9800
+Transmitter = None
+# Transmitter to put ready byte 0xEA out to  set to None 
+# for 10x compatibility and Serial for 405 
+#USBCommandLogging = On
+[Fonts]
+0 = /Fonts/Arial_10.ezf
+1 = /Fonts/Arial_13.ezf
+2 = /Fonts/Arial_16.ezf
+3 = /Fonts/Arial Black_21_B.ezf
+4 = /Fonts/Arial Black_32.ezf
+5 = /Fonts/Arial Black_32_B.ezf
+6 = /Fonts/Arial Black_39_B.ezf
+7 = /Fonts/Arial Black_49_B.ezf
+8 = /Fonts/Arial Black_54_B.ezf
+9 = /Fonts/Arial Black_59_B.ezf
+10 = /Fonts/Arial_19.ezf
+11 = /Fonts/Arial_22.ezf
+12 = /Fonts/Arial_24.ezf
+[Images]
+0 = /Bitmaps/MicroAire_Logo.bmp
+1 = /Bitmaps/Vacuum_v4.bmp
+2 = /Bitmaps/ToolsScreen_v8.bmp
+3 = /Bitmaps/Tools_Unselect_v4.bmp
+4 = /Bitmaps/Tools_Select_v4.bmp
+5 = /Bitmaps/BackArrow_v4.bmp
+6 = /Bitmaps/Reset_Bio_Unselect_v4.bmp
+7 = /Bitmaps/Reset_Bio_Select_v4.bmp
+8 = /Bitmaps/Inch_Unselect_v4.bmp
+9 = /Bitmaps/Inch_Select_v4.bmp
+10 = /Bitmaps/MM_Unselect_v4.bmp
+11 = /Bitmaps/MM_Select_v4.bmp
+12 = /Bitmaps/InchHg_v4.bmp
+13 = /Bitmaps/MMHg_v4.bmp
+14 = /Bitmaps/BackUnselected_v5.bmp
+15 = /Bitmaps/BackSelected_v5.bmp

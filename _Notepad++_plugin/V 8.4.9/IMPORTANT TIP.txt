@@ -1,0 +1,5 @@
+When using Notepad++ to edit lua files for the ezLCD-5x it is best and lest confuing to work in working directory 
+on your PC and click source when ready to test and press CTRL E to run it. When you want to move it to the ezLCD-5x 
+like in an autoexec.lua to run at powerup in Notepad++ select 'Save A Copy As' and then select the ezLCD-5x drive.
+This will keep your source editing on your local PC drive and also prevent rare flash corruption when windows and the ezLCD
+leave a file open.

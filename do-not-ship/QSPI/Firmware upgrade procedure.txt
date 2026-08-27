@@ -1,0 +1,26 @@
+	
+ezLCD-5x Firmware Upgrade Procedure
+-----------------------------------
+1) Your ezLCD should be connected to the USB of the PC doing the upgrade.
+
+2) Copy “ezLCDUtility-setup-xxxxxx.exe" from EarthLCD website or the utility directory of the SD card provided.
+
+3) Run the exe above and say yes to creating a shortcut. 
+
+4) From the ezLCD shortcut above run the utility. 
+
+5) In the LCD Selection Window Select “ezLCD-105 Rev B” or "ezLCD-5035" and click Apply Settings  
+
+6) Put your ezLCD-5x into firmware upgrade mode hold down the applicable boot button before applying power then apply power 
+and then release the button. NOTE: The LED's on the EarthSOM will NOT light to signify the system is in 
+firmware upgrade mode.
+[On the ezLCD-5035 not installed in a system plug USB cable in while holding boot button labeled Boot]
+[On the ezLCD-105-HB Rev B slide the PWR switch to on while holding the boot button labeled PROG]
+
+7) Click Update Firmware Tab. 
+
+8) Click the Open button and open the *.DFU file (the firmware you want to install). 
+
+9) Click the Update button. 
+
+

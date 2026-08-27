@@ -1,0 +1,31 @@
+ezLCD-5035 1st Time Software Installation Procedure
+-----------------------------------
+ 1) Copy CONFIG UTILITY SETUP program (“ezLCDUtility-setup-xxxxxx.exe") from EarthLCD website, Git, or the utility directory of the SD card.
+
+ 2) Run the CONFIG UTILITY SETUP program(.exe) above and click yes to creating a shortcut. 
+
+ 3) From the newly created ezLCD shortcut above run the now installed CONFIG UTILITY. 
+
+ 4) Connect the ezLCD to the USB port of the PC doing the installation.
+
+ 5) In the LCD Selection Window, Select "ezLCD-5035-RT" and click "Apply Settings". 
+
+ 6) Click the "Update Firmware Tab". 
+
+ 7) Click the Open button and open the *.dfu file (of the firmware you want to install). 
+
+ 8) Be sure that POWER is applied as in step 4 !!
+
+ 9) Put the ezLCD-5035 into BOOT (firmware update) mode --> , hold down the BOOT button then press and release the RESET button.
+      There are no LED's on the EarthSOM to signify the system is in BOOT (firmware update) mode. 
+
+10) In the "Update Firmware Tab", Click the Update button. Wait for the GREEN scroll bar to disappear and a message box to indicate "Update Complete".
+
+11) !!! RECYCLE the POWER !!! Pressing the RESET button is not the same as RECYCLING the POWER.  UnPlug and RePlug
+
+12) Calibrate the Touch Screen, if prompted.
+
+13) When you get a message reading "Error Loading config.txt", Copy and Paste the entire file system... 
+      Place the above mentioned files in the ROOT directory of your (ezLCD) display.
+
+14) Your ezLCD-5035 will be be ready to use with the selected files, the next time you power it ON.
